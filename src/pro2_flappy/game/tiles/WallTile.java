@@ -14,10 +14,8 @@ public class WallTile implements Tile {
 	
 	@Override
 	public void draw(Graphics g, int x, int y) {
-
 		//g.drawRect(x, y, Tile.SIZE, Tile.SIZE);
 		g.drawImage(img, x, y, null);
-		
 	}
 
 }
